@@ -1,0 +1,20 @@
+/* Custom styles for Mahakal Pure starter site */
+:root{
+  --brand:#7c0398; /* purple */
+  --accent:#5a026f; /* darker purple */
+  --text:#111111; /* small black mix color */
+  --bg:#ffffff;
+}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:var(--text);}
+.hero{
+  background:linear-gradient(180deg, rgba(124,3,152,0.03), rgba(90,2,111,0.02));
+  padding:70px 0;
+}
+.text-brand{color:var(--brand) !important}
+.btn-primary{background:var(--brand);border-color:var(--brand)}
+.btn-primary:hover{background:var(--accent);border-color:var(--accent)}
+.navbar-brand{font-weight:700;color:var(--brand)}
+.card-img-top{height:220px;object-fit:contain;background:#fff;padding:1rem}
+.border-top{border-top:1px solid rgba(0,0,0,0.06)!important}
+.border-bottom{border-bottom:1px solid rgba(0,0,0,0.06)!important}
